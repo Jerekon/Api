@@ -4,7 +4,7 @@ import java.util.stream.Collectors;
 public class Main {
     public static void main(String[] args) {
 
-        List<String> names = Arrays.asList("Jack", "Connor", "Harry", "George", "Samuel", "John");
+        List<String> names = Arrays.asList("Jack", "ea", "Harry", "George", "Samuel", "John");
         List<String> families = Arrays.asList("Evans", "Young", "Harris", "Wilson", "Davies", "Adamson", "Brown");
         Collection<Person> persons = new ArrayList<>();
         for (int i = 0; i < 10_000_000; i++) {
